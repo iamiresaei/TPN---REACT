@@ -50,14 +50,15 @@ body {
 .menu {
     display: none;
     position: absolute;
-    top: 87.5px;
-    width: 60%;
+    top: 87.3px;
+    width: 55%;
     right: 0;
     padding: 1em 0 1em 0;
     background-color: #252b48;
     border-radius: 0 0 0 20em;
-    opacity: 0.9;
+    opacity: 0.95;
     color: #F7E987;
+    animation: fadeInAnimation ease 1s;
 }
 
 @keyframes fadeInAnimation {
@@ -68,7 +69,7 @@ body {
 
     100% {
         opacity: 0.95;
-        width: 50%;
+        width: 55%;
     }
 }
 
