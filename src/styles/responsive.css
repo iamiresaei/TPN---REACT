@@ -1,0 +1,323 @@
+@media (max-width:1328px) {
+    .banner-txt {
+        padding: 1em;
+        width: 500px;
+    }
+    .banner-img img {
+        width: 450px;
+    }
+    .banner-txt div {
+        padding: 0.9em;
+    }
+    .banner-h1 {
+        font-size: 1em;
+    }
+    .banner-p {
+        font-size: 1.1em;
+    }
+    .option-cards {
+        grid-template-columns: repeat(2, auto);
+    }
+    .countries {
+        gap: 2.8em;
+    }
+    .country-img img {
+        width: 90px;
+        height: 58px;
+    }
+    .service {
+        grid-template-columns: repeat(3, auto);
+        gap: 2em;
+    }
+    .connection {
+        gap: 2.5em;
+    }
+    .connection-card {
+        width: 400px;
+        padding: 1em;
+    }
+    .connection-h1 {
+        font-size: 0.6em;
+    }
+    .connection-img {
+        font-size: 3.5em;
+    }
+    .connection-i a {
+        font-size: 1.8em;
+    }
+    .footer {
+        width: 35%;
+    }
+    .footer-img img {
+        width: 250px;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px) {
+    .logo-bar {
+        display: none;
+    }
+    .banner-img img {
+        width: 350px;
+    }
+    .banner-txt div {
+        padding: 0.8em;
+    }
+    .banner-h1 {
+        font-size: 0.75em;
+    }
+    .banner-h1 i {
+        font-size: 0.9em;
+    }
+    .banner-p {
+        font-size: 0.99em;
+    }
+    .banner-p i {
+        font-size: 1.1em;
+    }
+    .option-cards {
+        gap: 1.5em;
+    }
+    .option-card {
+        padding: 1.2em;
+        width: 285px;
+    }
+    .option-description {
+        font-size: 1em;
+    }
+    .countries {
+        gap: 1.7em;
+    }
+    .country-img img {
+        width: 80px;
+        height: 52.8px;
+    }
+    .service {
+        grid-template-columns: repeat(2, auto);
+        gap: 1.5em;
+    }
+    .service-card {
+        width: 295px;
+    }
+    .connection {
+        grid-template-columns: repeat(1, auto);
+    }
+    .connection-card {
+        width: 420px;
+    }
+    .connection-h1 {
+        font-size: 0.65em;
+    }
+    .connection-img {
+        font-size: 3.4em;
+    }
+    .connection-i a {
+        font-size: 1.95em;
+    }
+    .footer {
+        width: 40%;
+    }
+    .footer-h1 {
+        font-size: 0.9em;
+    }
+    .footer-link {
+        font-size: 0.9em;
+    }
+    .footer-img img {
+        width: 200px;
+    }
+}
+
+@media (max-width:767px) {
+    .header {
+        justify-content: space-between;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .logo{
+        display: none;
+    }    
+    .banner-img {
+        display: none;
+    }
+    .banner-txt {
+        width: 370px;
+    }
+    .banner-txt div {
+        padding: 0.5em;
+    }
+    .banner-h1 {
+        font-size: 0.8em;
+    }
+    .banner-p {
+        font-size: 1em;
+    }
+    .banner-p i {
+        font-size: 1.2em;
+    }
+    .option-cards {
+        grid-template-columns: repeat(1, auto);
+    }
+    .option-card {
+        padding: 1.5em;
+        width: 300px;
+    }
+    .option-card-txt {
+        font-size: 0.7em;
+    }
+    .countries {
+        grid-template-columns: repeat(3, auto);
+        gap: 2.4em;
+    }
+    .country-txt {
+        font-size: 0.8em;
+    }
+    .country-img img {
+        width: 75px;
+        height: 50px;
+    }
+    .service {
+        grid-template-columns: repeat(1, auto);
+    }
+    .service-card {
+        padding: 0.8em;
+    }
+    .connection-txt h1 {
+        font-size: 1.7em;
+    }
+    .service-txt {
+        font-size: 0.9em;
+    }
+    .service-card {
+        width: 320px;
+    }
+    .connection {
+        grid-template-columns: repeat(1, auto);
+    }
+    .connection-card {
+        width: 350px;
+        height: 70px;
+        padding: 0.9em;
+    }
+    .connection-h1 {
+        font-size: 0.56em;
+    }
+    .connection-img {
+        font-size: 2.8em;
+    }
+    .connection-i a {
+        font-size: 1.7em;
+    }
+    .footer {
+        width: 69%;
+    }
+    .footer-h1 {
+        font-size: 0.8em;
+    }
+    .footer-link {
+        font-size: 0.85em;
+    }
+    .footer-img {
+        display: none;
+    }
+}
+
+@media (max-width:495px) {
+    .header {
+        padding: 0.7em;
+    }
+    .menu {
+        top: 74.5px;
+    }
+    .user-bar div {
+        padding: 0.4em;
+    }
+    .banner-h1 {
+        font-size: 0.7em;
+    }
+    .option-card {
+        padding: 1.4em;
+        width: 260px;
+        height: 200px;
+    }
+    .option-card-txt {
+        font-size: 0.6em;
+    }
+    .option-i {
+        font-size: 2.4em;
+    }
+    .option-h1 {
+        font-size: 0.6em;
+    }
+    .option-description {
+        font-size: 0.85em;
+    }
+    .country-txt {
+        font-size: 0.7em;
+    }
+    .country-img img {
+        width: 50px;
+        height: 34px;
+    }
+    .country-name {
+        font-size: 0.65em;
+    }
+    .service-txt {
+        font-size: 0.7em;
+    }
+    .service-card {
+        width: 260px;
+        padding: 1.2em;
+    }
+    .service-time {
+        font-size: 0.75em;
+    }
+    .service-time i {
+        font-size: 0.9em;
+    }
+    .service-option p {
+        font-size: 0.85em;
+    }
+    .service-price {
+        font-size: 0.9em;
+    }
+    .service-price span {
+        font-size: 0.65em;
+    }
+    .service-btn a {
+        font-size: 0.85em;
+    }
+    .connection-txt {
+        font-size: 0.8em;
+    }
+    .connection-card {
+        padding: 1.2em;
+        width: 260px;
+        height: 50px;
+    }
+    .connection-h1 {
+        font-size: 0.40em;
+    }
+    .connection-img {
+        font-size: 2.3em;
+    }
+    .connection-i a {
+        font-size: 1.4em;
+    }
+    .footer-h1 {
+        font-size: 0.7em;
+    }
+    .footer-link {
+        font-size: 0.8em;
+    }
+    .footer-link img {
+        width: 20px;
+    }
+    .developer {
+        font-size: 0.8em;
+    }
+}
